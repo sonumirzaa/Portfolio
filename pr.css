@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Jolly Lodger';
+    color: red;
+    padding-left: 10px;
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.heading{
+    font-family: 'Jolly Lodger';
+    font-size: 100px;
+    padding-top: 60px;
+    margin-top: -650px;
+}
+
+.red-letter{
+    color: red;
+}
+
+.heading2{
+    font-family: 'Jolly Lodger';
+    font-size: 50px;
+    margin-top: -90px;
+    color: rgb(95, 97, 99);
+}
+
+#home {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blood{
+    position: relative;
+    margin-left: 1200px;
+    margin-top: -490px;
+    width: 500px;
+    height: 1000px;
+
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    color: red;
+    font-size:xx-large;
+}
+
+#about {
+    padding: 60px 20px;
+}
+
+.profile-image {
+    width: 600px;
+    height: 600px;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -500px;
+}
+
+.aboutcontent{
+    width: 400px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 300px;
+    top: -400px;
+    font-size: x-large;  
+    text-align: justify;
+    
+}
+
+.submit1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 890px;
+    bottom: 500px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: white solid 1px ;
+    position: relative;
+
+}
+
+.submit1:hover {
+    opacity: 0.7;
+}
+
+#skill {
+    padding-bottom: 100px ;
+    padding-right: 20px;
+}
+.skills{
+    top: -200px;
+    position: relative;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    height: 70%;
+    width: 60%;
+    margin-left: 350px;
+    margin-top: -200px;
+    background-color: rgb(0, 0, 0); 
+    
+}
+.shadow:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 0 10px red; 
+}
+
+.edu{
+    padding-top: 40px;
+}
+
+#education {
+    padding: 50px 20px;
+}
+
+.education-container {
+    
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-top:100px;
+}
+
+.education-sslc{
+    width: 550px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 700px;    
+}   
+.education-plus2{
+    width: 550px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+} 
+.education-college{
+    width: 550px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 700px;
+}   
+.education-dev{
+    width: 550px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+} 
+
+.education-title {
+    color: black;
+}
+
+.edcation-shape{
+    height: 600px  ;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -550px;
+    border-radius: 30px;
+}
+
+.edcation-shape1{
+    height: 20px  ;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -560px;
+    border-radius: 30px;
+}
+
+.edcation-shape2{
+    height: 20px  ;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    margin-left: 420px;
+    margin-top: 130px;
+    border-radius: 30px;
+}
+
+.edcation-shape3{
+    height: 20px  ;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 130px;
+    border-radius: 30px;
+}
+
+.edcation-shape4{
+    height: 20px  ;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    margin-left: 420px;
+    margin-top: 125px;
+    border-radius: 30px;
+}
+
+#projects {
+    padding-top: 150px;
+}
+
+.project1 {
+    margin-bottom: 30px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 70px;  
+}
+
+.project2 {
+    margin-bottom: 30px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 70px;
+}
+
+#contact {
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 500px;
+    /* border-color: white;
+    border: 1px solid; */     
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid red 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.submit-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 200px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: white solid 1px ;
+}
+
+.submit-button:hover {
+    opacity: 0.7;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+.social-icons img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.social-icons img:hover {
+    color: red;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ 
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: red;
+}
